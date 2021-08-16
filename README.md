@@ -1,8 +1,9 @@
 # DEMON ECR lecture "Harmonisation strategies for multi-centre imaging studies"
 
 ## Overview
-This lecture will cover various techniques for appropriately handling imaging data acquired from multipke centres. 
-Differences in hardware, software and acquisition parameters between sites can lead to diferences in the images. These differences include:
+This lecture will cover various techniques for hwo to appropriately handle imaging data acquired from multiple sites and scanners. 
+Differences in hardware, software and acquisition parameters between scanners can lead to diferences in the resulting imagedata. 
+These differences include:
 
 * _Resolution differences_ in terms of what effective resolution a scanner is able to acquire data
 * _Intensity/contrast differences_ in temrs of the signal to noise ratio and contrast between tissue types
@@ -10,9 +11,9 @@ Differences in hardware, software and acquisition parameters between sites can l
 
 These differences between scanners can ultimately lead to differences in the outcome measures, so if an individual
 was scanned at site A and then again the next day at site B, there would be potential differences in the measurement.
-While of course some of these differences would simpy be measurement error, there are also systemic differences between the sites that would lead
-to bias and/or differences in variability (heteroskedascity). 
-Methods for reducing or removing these sources of systematic error arisiing from multiple scanners/sites are called harmonisation. 
+While of course some of these differences would simpy be measurement error, there are also systematic differences between the sites that would lead
+to bias and or differences in variability (heteroskedascity). 
+Methods for reducing or removing these sources of systematic error arising from multiple scanners/sites are called harmonisation. 
 There are many opportunities for harmonisation, from prospecitvely tuning the acquisition parameters from the different sites 
 to ensure that the resulting images have properties that are as similar as possible to each other, to adaptive processing pipelines
 that harmoinse the images before analysis to adjusting for these differences between sites/scanners through statsitical models.
@@ -25,7 +26,7 @@ In the lecture below, we will:
 * Do a more advanced harmonisation approach using Combat
 
 ## Setup
-This lecture is organised as a Bidner-ready repository (add links to Binder). This means that the repository with the Jupyter notebook will created as a 
+This lecture is intended to be a [Binder-ready](https://mybinder.org/) repository (add links to Binder). This means that the repository with the Jupyter notebook will created as a 
 Docker container and then accessible via the web. Thus it should not require any more requirements than a network connection.
 
 If you are intereste in running this on your local environment, please investigate the local ennvironment page. The dependencies will be: 
@@ -33,7 +34,7 @@ If you are intereste in running this on your local environment, please investiga
 * niftyreg (C++) - for doing image registration
 * nipype - for running registrations in python
 * Python package for linear regression (pandas,scikit-learn?)
-* (ComBat)[https://github.com/Jfortin1/ComBatHarmonization] - for running harmonisation
+* [ComBat](https://github.com/Jfortin1/ComBatHarmonization) - for running harmonisation
 
 ## Difference in acquisition
 Cover why images are different even if the same individual - physiological noise, instrument noise, differences in hardware, differences in software. The gold standard of identifying these differences is often a travelling head study, where a small handful of individuals are scanned at mulitple sites. 
