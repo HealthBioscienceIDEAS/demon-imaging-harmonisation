@@ -1,5 +1,7 @@
 # DEMON ECR lecture "Harmonisation strategies for multi-centre imaging studies"
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HealthBioscienceIDEAS/demon-imaging-harmonisation/HEAD)
+
 ## Overview
 This lecture will cover various techniques for hwo to appropriately handle imaging data acquired from multiple sites and scanners. 
 Differences in hardware, software and acquisition parameters between scanners can lead to diferences in the resulting imagedata. 
