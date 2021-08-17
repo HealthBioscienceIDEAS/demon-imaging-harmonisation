@@ -3,3 +3,5 @@ mesa-utils
 freeglut3-dev
 xvfb
 x11-utils
+tree
+git
