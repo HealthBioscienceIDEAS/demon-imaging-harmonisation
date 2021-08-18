@@ -1,7 +1,7 @@
 git clone https://github.com/KCL-BMEIS/niftyreg.git
 mkdir niftyreg-build
-cmake -S ./niftyreg -B ./niftyreg-build
+cmake  -DCMAKE_INSTALL_PREFIX:PATH=~/.local -DCMAKE_BUILD_TYPE=Release -S ./niftyreg -B ./niftyreg-build
 cd niftyreg-build
 make
+make install
 cd -
-export PATH=~/niftyreg-build/reg-apps:${PATH}
