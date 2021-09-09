@@ -1,3 +1,5 @@
+git config --global --add user.name "DEMON BINDER"
+git config --glboal -add user.email "demon_imaging@example.com"
 mkdir -p ~/.local/src
 cd ~/.local/src
 git clone https://github.com/KCL-BMEIS/niftyreg.git
