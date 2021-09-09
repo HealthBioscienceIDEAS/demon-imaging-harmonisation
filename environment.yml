@@ -13,6 +13,7 @@ dependencies:
   - requests=2.26.0
   - statsmodels=0.12.2
   - pip:
+    - nanslice
     - neuroCombat
     - datalad-installer
     - pybids
