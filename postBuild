@@ -1,10 +1,13 @@
-curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
-mkdir -p ~/.local/rclone
-unzip -d ~/.local/rclone rclone-current-linux-amd64.zip
+mkdir ~/.local/src
+cd ~/.local/src
 git clone https://github.com/KCL-BMEIS/niftyreg.git
 mkdir niftyreg-build
 cmake  -DCMAKE_INSTALL_PREFIX:PATH=~/.local -DCMAKE_BUILD_TYPE=Release -S ./niftyreg -B ./niftyreg-build
 cd niftyreg-build
 make
 make install
-cd -
+cd
+curl -O https://downloads.rclone.org/v1.56.0/rclone-v1.56.0-linux-amd64.zip
+unzip rclone-v1.56.0-linux-amd64.zip 
+cp rclone-v1.56.0-linux-amd64/rclone ~/.local/bin
+rm -rf rclone-v1.56.0-linux-amd64*
