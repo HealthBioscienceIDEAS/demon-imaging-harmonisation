@@ -1,4 +1,4 @@
-mkdir ~/.local/src
+mkdir -p ~/.local/src
 cd ~/.local/src
 git clone https://github.com/KCL-BMEIS/niftyreg.git
 mkdir niftyreg-build
@@ -11,3 +11,7 @@ curl -O https://downloads.rclone.org/v1.56.0/rclone-v1.56.0-linux-amd64.zip
 unzip rclone-v1.56.0-linux-amd64.zip 
 cp rclone-v1.56.0-linux-amd64/rclone ~/.local/bin
 rm -rf rclone-v1.56.0-linux-amd64*
+fileid=1hPFtjFnFq0jWYXNl5ZGJwqqBjIuX6Oy2
+RCLONE_CONFIG_FILE=`rclone config file| cut -d: -f2`
+curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}" > /dev/null
+curl -Lb ./cookie "https://drive.google.com/uc?export=download&confirm=`awk '/download/ {print $NF}' ./cookie`&id=${fileid}" -o ${RCLONE_CONFIG_FILE} 
