@@ -17,3 +17,7 @@ fileid=1hPFtjFnFq0jWYXNl5ZGJwqqBjIuX6Oy2
 RCLONE_CONFIG_FILE=`rclone config file| cut -d: -f2`
 curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}" > /dev/null
 curl -Lb ./cookie "https://drive.google.com/uc?export=download&confirm=`awk '/download/ {print $NF}' ./cookie`&id=${fileid}" -o ${RCLONE_CONFIG_FILE} 
+
+# Clear outputs of notebooks
+cd
+for i in *ipynb; do echo $i; jupyter nbconvert $i --to notebook --ClearOutputPreprocessor.enabled=True --stdout > new_$i; mv new_$i $i;  done
