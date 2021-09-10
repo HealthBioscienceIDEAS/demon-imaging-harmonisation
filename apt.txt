@@ -1,8 +1,3 @@
-libgl1-mesa-dev
-mesa-utils
-freeglut3-dev
-xvfb
-x11-utils
 git-annex-remote-rclone
 tree
 git
