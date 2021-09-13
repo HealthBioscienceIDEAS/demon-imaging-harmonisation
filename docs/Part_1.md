@@ -13,4 +13,6 @@ The main reasons why we need images from multiple acquisition sites from the neu
 *	We are looking for small but meaningful effect sizes within the image. We can achieve it by reducing the size of the image to include only the region of interest. The benefit is to accommodate in our studies a more extensive sample number AND minimize variability.
 *	We need to recruit patients to participate in studies and trials, and this is increasingly competitive, so publicly available multi-site data are convenient to use and cost-effective.
 *	With multi-site data, we achieve more representative sampling of the population.
-![image](https://user-images.githubusercontent.com/61057378/133071837-1a680c7f-f7c3-4812-9a0b-92e7eac5b64e.png)
+
+##How to link the notebook
+[first notebook](https://mybinder.org/v2/gh/HealthBioscienceIDEAS/demon-imaging-harmonisation/HEAD?urlpath=lab/index.ipynb)
