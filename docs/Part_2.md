@@ -30,7 +30,8 @@ We Show some basic examples of LR from GENFI. First we add the site as a covaria
 
 ### Harmonisation with COMBAT
 
-We do the same fitting to the site covariance as before using the neuroCombat for more precise harmonisation.
+We do the same fitting to the site covariance as before using the neuroCombat for more precise harmonisation. We show advantages of COMBAT and why it would be useful, especially when numbers are small.
+
 
  ### CONCLUSIONS
 
