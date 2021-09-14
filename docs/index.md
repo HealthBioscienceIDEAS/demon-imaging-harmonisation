@@ -13,7 +13,7 @@ This lecture will cover various techniques for appropriately handling imaging da
 These differences between scanners can ultimately lead to differences in the outcome measures. Methods for reducing or removing these sources of systematic error arising from multiple scanners/sites are called harmonisation. 
 
 We present harmonisation methods of correcting the imaging outcome and the measurements of an individual scanned at a site A and then again, the next day at site B. The multi-site acquisition induces different in the initial measurements which are minimised with the harmonisation procedure. 
-We also show how advanced harmonisation techniques could lead to more precise (accurate???) measurements of multiple subjects, scanned at different sites with different scanners and technical parameters  
+We also show how advanced harmonisation techniques could lead to more precise measurements of multiple subjects, scanned at different sites with different scanners and technical parameters  
 
 
 During this lecture we will:  
@@ -29,7 +29,8 @@ If you are interested in running this on your local environment, please investig
 *	niftyreg (C++) - for doing image registration
 *	nipype - for running registrations in python
 *	Python package for linear regression (pandas,scikit-learn?)
-*	ComBat - for running harmonisation
+*	ComBat - for running harmonisation.
+
 The lecture will be in two parts with their corresponding Jupiter notebooks.
 
 ## Datasets
