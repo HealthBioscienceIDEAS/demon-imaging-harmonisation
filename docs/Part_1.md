@@ -17,5 +17,6 @@ This variability could be technical across scans, for example, variations in the
 The variability also could be due to heterogeneity in the imaging protocol and various local procedures, such as QA processes, that could affect the acqusiition. All of these then get mixed in with the different populations samplings at each site, such that statsitical anlyses must be able to tease out what effects are biological in nature versus those arising from the technical factors.
 
 Here is an example of site-related differences that were found in a whole brain analysis of individuals from genetic frontodemporal dementia. This figure is part of work done in the paper [Patterns of gray matter atrophy in genetic frontotemporal dementia: results from the GENFI study](https://doi.org/10.1016/j.neurobiolaging.2017.10.008) by Cash DM et al. It shows that at a voxel level there are many statistically signficiant differences in means between the sites.
-![](../assets/vbm_site_differences.png)
+
+![](assets/vbm_site_differences.png)
 
