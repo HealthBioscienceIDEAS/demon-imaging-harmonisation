@@ -21,7 +21,6 @@ The groups of patients are separated according to the symptoms of Dementia or (A
 We look at the difference (variability) in their mean other statistical measures and we compare them.
 
 
-# I NEED TO ADD MORE EXPLANATIONS 
 
 [Second notebook](https://mybinder.org/v2/gh/HealthBioscienceIDEAS/demon-imaging-harmonisation/HEAD?urlpath=lab/harmonisation.ipynb)
 
@@ -33,7 +32,7 @@ We Show some basic examples of LR from GENFI. First we add the site as a covaria
 
 We do the same fitting to the site covariance as before using the neuroCombat for more precise harmonisation.
 
- ### CONCLUSIONS
+ ### CONCLUSIONS
 
  ### REFERENCES
 
