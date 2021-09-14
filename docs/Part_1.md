@@ -24,5 +24,5 @@ The variability also could be due to the heterogeneity in the imaging protocol a
 # How To fix the variability problem
 While some of these differences would be measurement error, there are also systematic differences between the sites that would lead to bias and or differences in variability (heteroscedasticity). With harmonisation methods the systematic errors arised from multiple scanners/sites are reduced or removed There are many opportunities for harmonisation. One is tuning the acquisition parameters from the different locations to ensure that the resulting images have properties that are as similar as possible to each other. Another is adaptive processing pipelines that harmonise the images before analysis to adjust these differences between sites/scanners through statistical models. Each approach has its place, with potential benefits and drawbacks, but they can also be used in a combined harmonisation strategy.
 
-## How to link the notebook
-[first notebook](https://mybinder.org/v2/gh/HealthBioscienceIDEAS/demon-imaging-harmonisation/HEAD?urlpath=lab/index.ipynb)
+
+
