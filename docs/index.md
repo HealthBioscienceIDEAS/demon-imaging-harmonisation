@@ -35,11 +35,11 @@ If you are interested in running this on your local environment, please investig
 Limited versions of this dataset are only available through these notebooks for educational purposes only, through the kindness of the respective studies. This data is not to be used for research if you require the datasets for research, please contact the relevant data access committees through their standard channels. 
 We analyse data from [GENFI](https://www.genfi.org/) and from [ADNI](http://adni.loni.usc.edu/). To investigate the effect of scanner variations in the measurements.
 
-###GENFI
+### GENFI
 The Genetic Frontotemporal Dementia Initiative (GENFI) is a group of research centres across Europe and Canada with expertise in familial FTD, and is co-ordinated by Dr Jonathan Rohrer at University College London.
 The aim of the study is to understand more about genetic FTD, particularly in those who have mutations in the progranulin (GRN), microtubule-associated protein tau (MAPT) and chromosome 9 open reading frame 72 (C9orf72) genes.
 GENFI investigates both people who have developed symptoms and also people who have a risk of developing symptoms in the future because they carry an abnormal genetic mutation. By studying these individuals who are destined to develop the disease later in life we can understand the development from the very earliest changes. The key objectives of GENFI are therefore to develop markers which help identify the disease at its earliest stage as well as markers that allow the progression of the disease to be tracked.
 
-###ADNI
-Data used in the preparation of this lesson were obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). The ADNI was launched in 2003 as a public-private partnership, led by Principal Investigator Michael W. Weiner, MD. The primary goal of ADNI has been to test whether serial magnetic resonance imaging (MRI), positron emission tomography (PET), other biological markers, and clinical and neuropsychological assessment can be combined to measure the progression of mild cognitive impairment (MCI) and early Alzheimer’s disease (AD). For up-to-date information, see www.adni-info.org.
+### ADNI
+In future lessons, we will use data obtained from the [Alzheimer’s Disease Neuroimaging Initiative](https://adni.loni.usc.edu) (ADNI) database. The ADNI was launched in 2003 as a public-private partnership, led by Principal Investigator Michael W. Weiner, MD. The primary goal of ADNI has been to test whether serial magnetic resonance imaging (MRI), positron emission tomography (PET), other biological markers, and clinical and neuropsychological assessment can be combined to measure the progression of mild cognitive impairment (MCI) and early Alzheimer’s disease (AD). For up-to-date information, see www.adni-info.org.
 

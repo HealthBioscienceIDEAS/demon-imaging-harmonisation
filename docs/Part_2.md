@@ -6,8 +6,8 @@ nav_order: 3
 
 # Harmonisation techniques
 Here we apply harmonisation of acquisition and processes using:
-* 1st the Simple Linear regression and
-* 2nd the COMBAT technique to combine multi-site datasets of multiple individuals at different scanners. 
+1. simple Linear regression
+2. The COMBAT technique to combine multi-site datasets of multiple individuals at different scanners. 
 
 We demonstrate the advantage of COMBAT. 
 
